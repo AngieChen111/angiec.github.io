@@ -1,0 +1,96 @@
+/*
+palate: https://coolors.co/f9f8f8-80909d-d7e9ea-fadb9e-fdf1d9
+palate : https://coolors.co/587291-dfbbb1-b7f1f6-7df2e4-f88c99
+
+
+
+*/
+
+
+
+body{
+	background-color: #f2d6ff;
+	
+}
+main{
+	border: 3px solid #ffb3cc; 
+	background-color: #fff0f5;
+	width: 700px;
+	height: 500px;
+	display: grid; 
+	grid-template-rows: 2fr 20fr 2fr;
+}
+	
+#menu{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr  1fr ;
+	padding: 10px;
+	grid-gap: 12px; 
+	
+	
+}
+#style{
+	
+	display:grid;
+	grid-template-columns: 1fr 1fr  1fr ;
+	padding: 10px;
+	grid-gap: 12px; 
+	
+	
+}
+#menu > input{
+	background-color: #F8F6FF;
+	color: #C5BDE7 ;
+	font-size: 15px;
+	border-radius: 8px; 
+	border: 3px solid #ffb3cc;
+	
+}
+#style > input{
+	background-color: #F8F6FF;
+	color: #C5BDE7 ;
+	font-size: 15px;
+	border-radius: 8px; 
+	border: 3px solid #ffb3cc;
+	
+}
+#menu > input:hover{
+	background-color: #F3FBFF ;
+	color: #BDCDE7 ; 
+	font-size:20px;
+	border: 0px;
+	
+}
+
+
+section{
+	
+		border: 3px solid #ffb3cc; 
+		background-color: #F8F6FF;
+		border-radius: 10px; 
+		padding: 20px;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		color:#C5BDE7;
+		
+}
+html{
+	height:100%;
+
+
+}
+body{
+		height: 100%;
+		display: flex;
+		justify-content:center;
+		align-items: center;
+		
+}
+div{
+	text-align:center;
+
+}
+
+
+	
